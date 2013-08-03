@@ -1,0 +1,31 @@
+.lavaLamp {
+    list-style:none; padding-left: 200px; display:block; background-color:#416271;
+	
+}
+    /* Force the list to flow horizontally */
+    .lavaLamp li {
+        float: left;
+        list-style: none;  
+padding-top: 25px;		
+    }
+        /* Represents the background of the highlighted menu-item. */
+        .lavaLamp li.back {
+            
+            width: 9px; 
+            
+			
+            position: absolute;
+			color: #BFA811;
+        }
+            .lavaLamp li.back .left {
+                background: url(images/menu_arrow.gif) no-repeat;
+                height: 42px;
+                margin-right: 9px;
+color: #BFA811;				
+            }
+        /* Styles for each menu-item. */    
+        .lavaLamp li a {
+           height:42px; width: auto;float:left;text-decoration:none;padding:0 0 0 25px; margin:0px 3px 0px 3px;color:#fff;text-align:center;   
+        }
+		
+        
